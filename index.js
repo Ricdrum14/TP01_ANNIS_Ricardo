@@ -17,7 +17,7 @@ button.addEventListener("click", (e) => {
   }
 
   // Vérif email
-  const regex = /^[\\w.-]+@[\\w.-]+\\.[a-z]{2,}$/i;
+  const regex = /^[\w.-]+@[\w.-]+\.[a-z]{2,}$/i;
   if (!regex.test(email)) {
     alert("⚠️ Merci de saisir un email valide !");
     return;
